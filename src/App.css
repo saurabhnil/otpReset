@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -15,10 +16,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.img1 {
+  float: right;
+  background: url('./nationwide_final.png');
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 60px;
+  border-color: #09488c;
+  border-style: none;
+  padding-left: 160px;
 }
